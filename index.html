@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark light" />
+  <title>L.A. Marketing | www.lamarketing.vip</title>
+  <meta name="description" content="I help elite local businesses in Texas get more clients and scale fast. SEO, Google Ads, Social Media, UGC ad creative, email, and automation. Book a free discovery call." />
+  <meta name="keywords" content="Texas marketing agency, local business SEO, Google Ads management, bilingual marketing, UGC ads, social media management, Texas digital marketing" />
+  <link rel="canonical" href="https://www.lamarketing.vip/" />
+  <meta name="theme-color" content="#000000" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="L.A. Marketing – More Clients. More Growth. Guaranteed." />
+  <meta property="og:description" content="Luxury, bilingual marketing for elite local businesses. SEO, Google Ads, Social, UGC ad creative, and automation. Book your discovery call." />
+  <meta property="og:url" content="https://www.lamarketing.vip/" />
+  <!-- Using a hosted photo so you don't need uploads today -->
+  <meta property="og:image" content="https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=1200&q=80" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="L.A. Marketing – More Clients. More Growth. Guaranteed." />
+  <meta name="twitter:description" content="I help elite local businesses in Texas grow with SEO, Google Ads, Social, and high-converting UGC ads. Book a discovery call." />
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=1200&q=80" />
+
+  <!-- Favicon (inline, no upload needed) -->
+  <link rel="icon" type="image/svg+xml"
+        href='data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" fill="#000"/><circle cx="32" cy="32" r="26" fill="none" stroke="%23D4AF37" stroke-width="4"/><text x="32" y="39" text-anchor="middle" font-family="Arial" font-size="24" fill="%23D4AF37">LA</text></svg>' />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    :root{
+      --primary-bg:#000;
+      --secondary-bg:#0a0a0a;
+      --primary-text:#fff;
+      --accent:#D4AF37; /* Gold */
+      --maxw:1200px;
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{
+      font-family:'Montserrat',system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+      background:var(--primary-bg); color:var(--primary-text);
+      line-height:1.6; padding-top:80px;
+    }
+    a{color:inherit;text-decoration:none}
+    a:focus,button:focus{outline:2px solid var(--accent);outline-offset:2px}
+    header,section,footer{width:100%;padding:60px 20px}
+    .container{max-width:var(--maxw);margin:0 auto}
+    h1,h2,h3{font-family:'Playfair Display',serif;color:var(--primary-text)}
+    h1{font-size:3.2rem;letter-spacing:1px;margin-bottom:16px}
+    h2{font-size:2.2rem;margin-bottom:14px}
+    h3{font-size:1.35rem;margin-bottom:8px}
+    p{font-size:1rem;margin-bottom:18px;color:#eaeaea}
+    .eyebrow{color:var(--accent);letter-spacing:.12em;font-size:.8rem;text-transform:uppercase;margin-bottom:10px}
+    .btn{display:inline-block;padding:14px 28px;background:var(--accent);color:#000;font-weight:700;border-radius:5px;transition:transform .15s ease}
+    .btn:hover{transform:translateY(-1px)}
+    .btn-outline{background:transparent;color:var(--accent);border:1px solid var(--accent)}
+
+    /* Nav */
+    .navbar{position:fixed;top:0;left:0;width:100%;z-index:1000;display:flex;align-items:center;justify-content:space-between;padding:10px 20px;background:#000;border-bottom:1px solid rgba(255,255,255,.06)}
+    .brand{font-family:'Playfair Display',serif;font-size:1.25rem;letter-spacing:.04em}
+    .brand .gold{color:var(--accent)}
+    .navbar .nav-cta{padding:10px 18px;font-size:.9rem}
+
+    /* Hero */
+    #hero{background:#0a0a0a url('https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;position:relative;text-align:center}
+    #hero::before{content:"";position:absolute;inset:0;background:rgba(0,0,0,.58)}
+    #hero .container{position:relative;z-index:1}
+    #hero p{color:#e2e2e2;font-size:1.1rem}
+    #hero .bilingual{color:#cfcfcf;font-style:italic;margin-top:-6px;margin-bottom:24px;font-size:.95rem}
+
+    /* Sections */
+    .section-dark{background:var(--primary-bg)}
+    .section-light{background:var(--secondary-bg)}
+    .services{display:grid;gap:28px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+    .service-card{padding:20px;border:1px solid #1f1f1f;background:#0f0f0f;border-radius:8px}
+    .service-card h3{color:var(--accent)}
+    .service-card p{color:#ddd}
+
+    /* Contact / Calendly */
+    .form-wrap{display:grid;gap:28px;grid-template-columns:1.1fr .9fr}
+    form{display:flex;flex-direction:column;gap:14px;max-width:600px}
+    input,textarea{width:100%;padding:12px 14px;border:1px solid #333;border-radius:6px;background:#0f0f0f;color:#fff}
+    input::placeholder,textarea::placeholder{color:#777}
+    .calendly-inline-widget{min-width:280px;height:680px;border:1px solid #1f1f1f;border-radius:8px}
+
+    footer{background:#0a0a0a;padding:38px 20px}
+    footer p{color:#cfcfcf;font-size:.95rem;margin-bottom:10px}
+    .social-links a{margin:0 10px;color:var(--accent);font-weight:600}
+
+    @media (max-width:900px){
+      .form-wrap{grid-template-columns:1fr}
+      h1{font-size:2.4rem}
+      #hero h1{font-size:2.4rem}
+      #hero p{font-size:1rem}
+    }
+  </style>
+
+  <!-- Local SEO: JSON-LD (edit telephone/address/socials later) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"LocalBusiness",
+    "name":"L.A. Marketing",
+    "image":"https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=1200&q=80",
+    "url":"https://www.lamarketing.vip/",
+    "telephone":"",
+    "priceRange":"$$$",
+    "description":"Luxury, bilingual digital marketing for elite local businesses: SEO, Google Ads, Social Media, UGC ad creative, email, and automation.",
+    "founder":"Leonardo Ali",
+    "address":{"@type":"PostalAddress","addressLocality":"","addressRegion":"TX","addressCountry":"US"},
+    "areaServed":[{"@type":"AdministrativeArea","name":"Texas"},{"@type":"Country","name":"United States"}],
+    "knowsLanguage":["English","Spanish"],
+    "sameAs":["#","#","#"]
+  }
+  </script>
+</head>
+
+<body id="top">
+  <!-- Sticky Nav -->
+  <nav class="navbar" role="navigation" aria-label="Primary">
+    <a href="#top" class="brand" aria-label="Go to top"><span class="gold">L.A.</span> Marketing</a>
+    <a href="#contact" class="btn nav-cta">Book a Free Discovery Call</a>
+  </nav>
+
+  <!-- Hero -->
+  <header id="hero" role="banner">
+    <div class="container">
+      <div class="eyebrow">Premium. Minimal. Relentless ROI.</div>
+      <h1>More Clients. More Growth. Guaranteed.</h1>
+      <p>I handle your marketing so you can run your business.</p>
+      <p class="bilingual">English-first — también hablo español.</p>
+      <a href="#contact" class="btn" aria-label="Book a Free Discovery Call">Book a Free Discovery Call</a>
+    </div>
+  </header>
+
+  <!-- Problem -->
+  <section class="section-dark">
+    <div class="container">
+      <h2>The Challenge Facing Local Businesses</h2>
+      <p>Competition is savage. Your best customers live on Google and social. If you aren’t visible, you’re donating revenue to competitors every day.</p>
+    </div>
+  </section>
+
+  <!-- Agitation -->
+  <section class="section-light">
+    <div class="container">
+      <h2>Why Typical Solutions Fail</h2>
+      <p><strong>DIY:</strong> Overwhelming. Steals time from your real work.</p>
+      <p><strong>In-House Hire:</strong> Expensive and slow. Most end up outsourcing anyway.</p>
+      <p><strong>Big Agencies:</strong> Unless you spend six figures, you’re not a priority. Juniors run your account while you pay premium rates.</p>
+      <p>I don’t let that happen. I engineer attention → leads → booked calls.</p>
+    </div>
+  </section>
+
+  <!-- Solution -->
+  <section class="section-dark">
+    <div class="container">
+      <h2>The L.A. Marketing Difference</h2>
+      <p>I’m a bilingual, luxury-driven marketing consultant for elite local businesses. The mission is simple: predictable leads and growth.</p>
+      <p><strong>Rank #1 on Google.</strong> Local SEO so prospects find you first.</p>
+      <p><strong>Profit-Focused Google Ads.</strong> I handle everything—keywords, copy, bids, tracking.</p>
+      <p><strong>Social Media That Sells.</strong> Content that builds demand and lowers ad costs.</p>
+      <p><strong>Email & Automations.</strong> Nurture sequences and follow-ups that turn clicks into clients—on autopilot.</p>
+    </div>
+  </section>
+
+  <!-- Services (includes UGC) -->
+  <section class="section-light" aria-labelledby="services-title">
+    <div class="container">
+      <h2 id="services-title">My Services</h2>
+      <div class="services">
+        <div class="service-card">
+          <h3>Local SEO</h3>
+          <p>Dominate local search. I optimize your site, Google Business Profile, and citations so qualified buyers find you first.</p>
+        </div>
+        <div class="service-card">
+          <h3>Google Ads</h3>
+          <p>Laser-targeted campaigns and ruthless optimization. You get calls and bookings—not vanity clicks.</p>
+        </div>
+        <div class="service-card">
+          <h3>Social Media Management</h3>
+          <p>Strategic content + community growth across Instagram, Facebook, and TikTok to feed your funnel.</p>
+        </div>
+        <div class="service-card">
+          <h3>Email Marketing & Funnels</h3>
+          <p>Automated sequences that convert leads into loyal clients while you sleep.</p>
+        </div>
+        <div class="service-card">
+          <h3>AI Automation & Systems</h3>
+          <p>CRM pipelines, appointment schedulers, chatbots, and follow-up workflows that turn interest into revenue.</p>
+        </div>
+        <div class="service-card">
+          <h3>UGC Ad Creative (I Direct or I’m the Face)</h3>
+          <p>Your market trusts people, not corporate ads. I write scripts, coach your team to film on any phone, and edit for high-performance ads. Prefer a pro on camera? <strong>I can be the on-screen talent</strong> (English & Spanish) to deliver your message with presence and precision.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact + Calendly -->
+  <section id="contact" class="section-dark" aria-labelledby="contact-title">
+    <div class="container">
+      <h2 id="contact-title">Book a Free Discovery Call</h2>
+      <p>Ready to grow? Tell me about your goals and pick a time that works.</p>
+
+      <div class="form-wrap">
+        <!-- Simple form (placeholder) -->
+        <form action="#" method="post" aria-label="Lead form">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <input type="tel" name="phone" placeholder="Phone Number" required />
+          <input type="text" name="business" placeholder="Business Name" required />
+          <textarea name="message" rows="4" placeholder="Tell me about your goals"></textarea>
+          <button type="submit" class="btn">Send & Keep My Spot</button>
+          <p style="font-size:.85rem;color:#bdbdbd;margin-top:6px">By sending this form you agree to be contacted about services. No spam.</p>
+        </form>
+
+        <!-- Calendly Inline Embed (replace with your real link later) -->
+        <div>
+          <div class="eyebrow">Or schedule instantly</div>
+          <div class="calendly-inline-widget"
+               data-url="https://calendly.com/YOUR-USERNAME/intro-call?hide_landing_page_details=1&hide_gdpr_banner=1"
+               style="min-width:280px;height:680px"></div>
+          <p style="margin-top:10px;font-size:.9rem">
+            Prefer a direct link?
+            <a class="btn btn-outline" href="https://calendly.com/YOUR-USERNAME/intro-call" target="_blank" rel="noopener">Open Calendly</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer role="contentinfo">
+    <div class="container" style="text-align:center">
+      <p>© 2025 L.A. Marketing. Texas — Serving elite local businesses across the U.S.</p>
+      <p>Mission: I empower elite local businesses through bilingual, data-driven marketing that guarantees growth and elevates brand prestige.</p>
+      <div class="social-links" aria-label="Social links">
+        <a href="#" aria-label="Facebook">Facebook</a>
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Calendly SDK -->
+  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+</body>
+</html>
